@@ -1,3 +1,4 @@
+
 # Environment variables and secrets
 .env
 .env.*
@@ -24,5 +25,11 @@ credentials/
 .DS_Store
 Thumbs.db
 
-# PDF and personal study documents
+# PDFs and generated vector databases
 *.pdf
+chroma-db/
+**/chroma-db/
+
+# Generated data
+*.db
+*.sqlite3
