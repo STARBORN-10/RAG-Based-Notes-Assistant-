@@ -7,7 +7,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 load_dotenv()
 
-data = PyPDFLoader("Document Loaders/deep_learning.pdf")
+data = PyPDFLoader("Document Loaders/RagMLDL.pdf")
 
 docs = data.load()
 
